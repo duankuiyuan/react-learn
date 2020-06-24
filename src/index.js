@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import JsxDemo from './2-6'
 import './index.css';
 ReactDOM.render(
- <h1>hello word</h1>,
+  <JsxDemo></JsxDemo>,
   document.getElementById('root')
 );
 
